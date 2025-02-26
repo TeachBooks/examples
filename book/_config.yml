@@ -1,4 +1,4 @@
-Title: TeachBooks template
+Title: TeachBooks examples
 author: TeachBooks Team, built with <a href="https://teachbooks.io">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a> #add your own name here
 
 execute:
@@ -8,7 +8,7 @@ only_build_toc_files: true
 
 html:
   favicon : "figures/TB_favicon.ico"
-  baseurl :  "https://teachbooks.io/" #Replace this with your own URL
+  baseurl :  "http://teachbooks.io/examples/" #Replace this with your own URL
 
 sphinx:
   config:
@@ -22,7 +22,7 @@ sphinx:
         text: Template
         image_light: TeachBooks_logo.svg # Put your logo for the light mode here (can be the same as image_dark)
         image_dark: TeachBooks_logo_inverted.svg # Put your logo for the dark mode here (can be the same as image_light)
-      repository_url: "https://github.com/user/repo" #add your own repo URL here
+      repository_url: "https://github.com/TeachBooks/examples" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
       use_edit_page_button: true
@@ -37,6 +37,8 @@ sphinx:
       chtml: {
         mtextInheritFont: true # To typeset text within math prettier
       }
+    tud_change_logo: false
+    tud_change_favicon: false
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
@@ -45,6 +47,7 @@ sphinx:
     - sphinx_image_inverter
     - sphinx_iframes
     - sphinx_exercise
+    - sphinx_tudelft_theme
     - teachbooks_sphinx_tippy
 
 bibtex_bibfiles: 

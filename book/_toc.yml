@@ -4,18 +4,9 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-    - file: exercises
-      sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
+    - external: https://github.com/TUDelft-books/CME4501/blob/2024/book/pages/linear_constrained_optimization_example.ipynb
+      title: Combining interactive widgets, quizzes, math and coding exercises
+    - external: https://github.com/CIEM5000-2025/book/blob/main/book/workshop2/Workshop_2_Apply.ipynb
+      title: Extensive coding exercise with hints and solutions
     - file: references.md
-    - file: changelog.md
     - file: credits.md
