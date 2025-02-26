@@ -1,5 +1,5 @@
 (intro)=
-# Example book
+# Welcome to the example book!
 
 This book contains some examples of exciting examples of our tooling!
 
