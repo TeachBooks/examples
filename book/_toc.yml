@@ -1,18 +1,16 @@
 format: jb-book
 root: intro.md
 
-parts:
-  - caption: Contents
-    chapters:
-    - external: https://github.com/TUDelft-MUDE/book/blob/2025-draft/book/fem/discrete.ipynb
-      title: Combining interactive plotly figures with H5p-quizzes 
-    - external: https://github.com/TUDelft-books/CME4501/blob/2024/book/pages/linear_constrained_optimization_example.ipynb
-      title: Combining interactive widgets, H5p-quizzes and Python coding exercises
-    - external: https://gitlab.ewi.tudelft.nl/prime/openlabook-published/-/blob/main/Chapter5/DeterminantsGeometric.md?ref_type=heads
-      title: Combining PRIME interactive figures and Grasple exercises
-    - external: https://github.com/CIEM5000-2025/book/blob/main/book/workshop2/Workshop_2_Apply.ipynb
-      title: Extensive Python coding exercise
-    - external: https://github.com/TeachBooks/files-and-folders/blob/EN/book/part3/part3.md
-      title: Combining H5p-quizzes with videos and language switcher
-    - file: references.md
-    - file: credits.md
+chapters:
+- external: https://github.com/TUDelft-MUDE/book/blob/2025-draft/book/fem/discrete.ipynb
+  title: Combining interactive plotly figures with H5p-quizzes 
+- external: https://github.com/TUDelft-books/CME4501/blob/2024/book/pages/linear_constrained_optimization_example.ipynb
+  title: Combining interactive widgets, H5p-quizzes and Python coding exercises
+- external: https://gitlab.ewi.tudelft.nl/prime/openlabook-published/-/blob/main/Chapter5/DeterminantsGeometric.md?ref_type=heads
+  title: Combining PRIME interactive figures and Grasple exercises
+- external: https://github.com/CIEM5000-2025/book/blob/main/book/workshop2/Workshop_2_Apply.ipynb
+  title: Extensive Python coding exercise
+- external: https://github.com/TeachBooks/files-and-folders/blob/EN/book/part3/part3.md
+  title: Combining H5p-quizzes with videos and language switcher
+- file: references.md
+- file: credits.md
