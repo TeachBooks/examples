@@ -53,3 +53,12 @@ sphinx:
 
 bibtex_bibfiles: 
   - references.bib
+
+parse:
+  myst_enable_extensions:
+    - html_image
+    - colon_fence
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
